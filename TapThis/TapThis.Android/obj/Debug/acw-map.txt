@@ -1,0 +1,4 @@
+TapThis.Droid.MainActivity, TapThis.Android;md5531ecbf11a1681fcd11f42a58b973a14.MainActivity
+TapThis.Droid.MainActivity, TapThis.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5531ecbf11a1681fcd11f42a58b973a14.MainActivity
+TapThis.Droid.MainActivity;md5531ecbf11a1681fcd11f42a58b973a14.MainActivity
+tapthis.droid.MainActivity;md5531ecbf11a1681fcd11f42a58b973a14.MainActivity
