@@ -23617,12 +23617,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis.UWP\\TapThis.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis.UWP\\TapThis.UWP.csproj",
       "projectName": "TapThis.UWP",
-      "projectPath": "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis.UWP\\TapThis.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis.UWP\\project.json",
+      "projectPath": "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis.UWP\\TapThis.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis.UWP\\project.json",
       "packagesPath": "C:\\Users\\nmarl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis.UWP\\obj\\",
+      "outputPath": "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\nmarl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -23635,8 +23635,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis\\TapThis.csproj": {
-              "projectPath": "C:\\Users\\nmarl\\source\\repos\\TapThis\\TapThis\\TapThis\\TapThis.csproj"
+            "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis\\TapThis.csproj": {
+              "projectPath": "C:\\Users\\nmarl\\Source\\Repos\\TapThis\\TapThis\\TapThis\\TapThis.csproj"
             }
           }
         }
