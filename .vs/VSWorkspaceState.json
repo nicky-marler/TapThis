@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TapThis"
+    "\\TapThis",
+    "\\TapThis\\TapThis"
   ],
-  "SelectedNode": "\\TapThis\\TapThis.Android",
   "PreviewInSolutionExplorer": false
 }
