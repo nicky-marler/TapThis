@@ -7,25 +7,18 @@ namespace TapThis.Model
 {
     public class Week
     {
-        public List<Item> Right_Now { get; set; }
-        public List<Item> Sunday { get; set; }
-        public List<Item> Monday { get; set; }
-        public List<Item> Tuesday { get; set; }
-        public List<Item> Wednesday { get; set; }
-        public List<Item> Thursday { get; set; }
-        public List<Item> Friday { get; set; }
-        public List<Item> Saturday { get; set; }
+        public List<Item> Right_Now { get; set; } = new List<Item>(10);
+        public List<Item> Sunday { get; set; } = new List<Item>(10);
+        public List<Item> Monday { get; set; } = new List<Item>(10);
+        public List<Item> Tuesday { get; set; } = new List<Item>(10);
+        public List<Item> Wednesday { get; set; } = new List<Item>(10);
+        public List<Item> Thursday { get; set; } = new List<Item>(10);
+        public List<Item> Friday { get; set; } = new List<Item>(10);
+        public List<Item> Saturday { get; set; } = new List<Item>(10);
 
         public Week()
         {
-            Right_Now = new List<Item>(10);
-            Sunday = new List<Item>(10);
-            Monday = new List<Item>(10);
-            Tuesday = new List<Item>(10);
-            Wednesday = new List<Item>(10);
-            Thursday = new List<Item>(10);
-            Friday = new List<Item>(10);
-            Saturday = new List<Item>(10);
+
         }
 
         public void Get_Now()
