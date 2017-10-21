@@ -33,40 +33,42 @@ namespace TapThis.Model
             //The 2nd loop handles grabbing the items of the day itself 
             //Loops were 148 lines
             //Lambda is 30 lines
-            if (Current_Day == "Sunday")
+            switch (Current_Day)
             {
-                Right_Now.AddRange(Saturday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Sunday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Monday")
-            {
-                Right_Now.AddRange(Sunday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Monday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Tuesday")
-            {
-                Right_Now.AddRange(Monday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Tuesday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Wednesday")
-            {
-                Right_Now.AddRange(Tuesday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Wednesday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Thursday")
-            {
-                Right_Now.AddRange(Wednesday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Thursday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Friday")
-            {
-                Right_Now.AddRange(Thursday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Friday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
-            }
-            else if (Current_Day == "Saturday")
-            {
-                Right_Now.AddRange(Friday.Where(item => item.Bleeds && Now_Time < item.End));
-                Right_Now.AddRange(Saturday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                case "Sunday":
+                    Right_Now.AddRange(Saturday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Sunday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Monday":
+                    Right_Now.AddRange(Sunday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Monday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Tuesday":
+                    Right_Now.AddRange(Monday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Tuesday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Wednesday":
+                    Right_Now.AddRange(Tuesday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Wednesday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Thursday":
+                    Right_Now.AddRange(Wednesday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Thursday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Friday":
+                    Right_Now.AddRange(Thursday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Friday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
+
+                case "Saturday":
+                    Right_Now.AddRange(Friday.Where(item => item.Bleeds && Now_Time < item.End));
+                    Right_Now.AddRange(Saturday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+                    break;
             }
         }
 
