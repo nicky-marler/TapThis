@@ -1,0 +1,9 @@
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard2.0\TapThis.deps.json
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard2.0\TapThis.dll
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard2.0\TapThis.pdb
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.csprojResolveAssemblyReference.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.csproj.CoreCompileInputs.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.AssemblyInfoInputs.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.AssemblyInfo.cs
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.dll
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard2.0\TapThis.pdb

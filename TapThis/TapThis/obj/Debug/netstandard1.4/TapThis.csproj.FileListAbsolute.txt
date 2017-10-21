@@ -1,8 +1,9 @@
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.deps.json
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.dll
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.pdb
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.csprojResolveAssemblyReference.cache
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.csproj.CoreCompileInputs.cache
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.AssemblyInfo.cs
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.dll
-C:\Users\nmarl\source\repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.pdb
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.csprojResolveAssemblyReference.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.csproj.CoreCompileInputs.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.AssemblyInfoInputs.cache
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.AssemblyInfo.cs
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.deps.json
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.dll
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\bin\Debug\netstandard1.4\TapThis.pdb
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.dll
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis\obj\Debug\netstandard1.4\TapThis.pdb

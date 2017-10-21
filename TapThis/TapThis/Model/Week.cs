@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace TapThis.Model
 {
@@ -34,8 +35,14 @@ namespace TapThis.Model
             double Now_Time = System.DateTime.Now.TimeOfDay.TotalHours;
             string Current_Day = System.DateTime.Now.DayOfWeek.ToString();
 
+            //This applies for all days.
+            //The first loop handles grabbing the items from the day before the bleed over.
+            //The 2nd loop handles grabbing the items of the day itself
             if (Current_Day == "Sunday")
             {
+                //Right_Now.AddRange(Saturday.Where(item => item.Bleeds && Now_Time < item.End));
+                //Right_Now.AddRange(Sunday.Where(item => (item.Bleeds && item.Start <= Now_Time) || (item.Start <= Now_Time && Now_Time <= item.End)));
+
                 foreach (Item item in Saturday)
                 {
                     if (item.Bleeds && Now_Time < item.End)
@@ -54,6 +61,7 @@ namespace TapThis.Model
                         Right_Now.Add(item);
                     }
                 }
+
             }
             else if (Current_Day == "Monday")
             {
