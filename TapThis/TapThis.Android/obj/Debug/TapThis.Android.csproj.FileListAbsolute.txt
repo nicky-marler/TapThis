@@ -20,3 +20,5 @@ C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\obj\Debug\res\drawab
 C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\obj\Debug\res\drawable-xxxhdpi\icon.png
 C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\obj\Debug\R.cs.flag
 C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\obj\Debug\uploadflags.txt
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\bin\Debug\TapThis.Android.dll.mdb
+C:\Users\nmarl\Source\Repos\TapThis\TapThis\TapThis.Android\obj\Debug\android\assets\TapThis.Android.dll.mdb
